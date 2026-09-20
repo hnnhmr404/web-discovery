@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Image sections */
+
+.image {
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* This creates the parallax effect */
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* First image */
+
+.image-one {
+    background-image: url("cat.webp");
+}
+
+/* Second image */
+
+.image-two {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxTzH6HSC19UUAZRp1X3P9xO0ATCRd7QjixOgFKNaDQ&s=10");
+}
+
+/* Text in the middle of images */
+
+.message {
+    padding: 20px 35px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+
+    text-align: center;
+
+    letter-spacing: 2px;
+}
+
+/* Black section */
+
+.black-block {
+    height: 400px;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>It's over 9000</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <form id="calc-form">
+            <input type="text" id="left-member" placeholder="1st integer">
+
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+
+            <input type="text" id="right-member" placeholder="2nd integer">
+
+            <input type="submit" value="Try me!">
+        </form>
+
+        <div class="output-container">
+            <span class="equals-sign">=</span>
+            <div id="result-display">Result</div>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

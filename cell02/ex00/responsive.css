@@ -1,0 +1,15 @@
+                        td{
+                                padding:2rem;
+                        }
+                        #cell1{
+                                color:white;
+                                background-color:pink;
+                                width: 48vw;
+                                height: 100vh;
+                        }
+                        #cell2{
+                                color:white;
+                                background-color:purple;
+                                width: 48vw;
+                                height: 100vh;
+			}

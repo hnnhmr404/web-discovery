@@ -1,0 +1,13 @@
+body{
+	margin: 0;
+	padding:20px;
+	font-family: 'Arial';
+	transition: background-color 0.2s ease;
+}
+
+button {
+	padding: 15px 30px;
+	font-size: 16px;
+	border: 1px solid lightgrey;
+	background-color: white;
+}
