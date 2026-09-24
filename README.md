@@ -1,0 +1,2 @@
+# Web Discovery Piscine (42kl)
+I completed an 8 days program where we were required to do the following projects and this was my submission. There is also an additional group project that we need to complete which is in the web-rush repository.
